@@ -22,38 +22,58 @@
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
             text-align: center;
-            max-width: 400px;
+            max-width: 450px;
         }
         h1 {
             color: #00ff88;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
+            text-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
+        }
+        h3 {
+            color: #888;
+            margin-top: 0;
+            font-weight: 400;
+            letter-spacing: 1px;
         }
         p {
             color: #b3b3b3;
             line-height: 1.6;
+            margin-bottom: 30px;
         }
         .btn {
             display: inline-block;
-            margin-top: 20px;
-            padding: 10px 25px;
+            margin: 5px;
+            padding: 10px 20px;
             background-color: #00ff88;
             color: #1a1a1a;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
-            transition: background-color 0.3s ease;
+            transition: all 0.3s ease;
+        }
+        .btn-secondary {
+            background-color: transparent;
+            color: #00ff88;
+            border: 2px solid #00ff88;
         }
         .btn:hover {
             background-color: #00cc6a;
+            transform: translateY(-2px); /* Makes the button "lift" up slightly */
+        }
+        .btn-secondary:hover {
+            background-color: rgba(0, 255, 136, 0.1);
         }
     </style>
 </head>
 <body>
 
     <div class="card">
-        <h1>Hello, I'm Alxnos.</h1>
-        <p>Welcome to my new website! I am currently building this page using GitHub Pages. Check back soon for more updates and projects.</p>
-        <a href="#" class="btn">Get in Touch</a>
+        <h1>Alxnos</h1>
+        <h3>Web Developer & Creator</h3>
+        <p>Welcome to my updated portfolio! I am learning to build and host websites directly from GitHub. Check out my links below.</p>
+        
+        <a href="https://github.com/alxnos" target="_blank" class="btn btn-secondary">My GitHub</a>
+        <a href="mailto:your-email@example.com" class="btn">Email Me</a>
     </div>
 
 </body>
